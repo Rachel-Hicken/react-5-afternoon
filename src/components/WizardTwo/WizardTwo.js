@@ -1,5 +1,7 @@
 import React,  { Component } from 'react';
 import { Link } from 'react-router-dom';
+import {connect} from 'react-redux';
+import {update_city} from '../../ducks/reducer'
 
 class WizardTwo extends Component {
     render(){
